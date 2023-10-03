@@ -19,13 +19,13 @@ export default function Profile() {
         />
         <input
           type="text"
-          placeholder="email"
+          placeholder="Email"
           id="email"
           className=" border p-3 rounded-lg"
         />
         <input
           type="text"
-          placeholder="password"
+          placeholder="Password"
           id="password"
           className=" border p-3 rounded-lg"
         />
