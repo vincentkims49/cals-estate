@@ -27,7 +27,7 @@ export default function Header() {
       <div className='flex justify-between items-center max-w-6xl mx-auto p-3'>
         <Link to='/'>
           <h1 className='font-bold text-sm sm:text-xl flex flex-wrap'>
-            <span className='text-slate-500'>Terere</span>
+            <span className='text-slate-500'>Vin</span>
             <span className='text-slate-700'>Estate</span>
           </h1>
         </Link>
@@ -42,7 +42,7 @@ export default function Header() {
             value={searchTerm}
             onChange={(e) => setSearchTerm(e.target.value)}
           />
-          <button>
+          <button >
             <FaSearch className='text-slate-600' />
           </button>
         </form>
@@ -65,7 +65,7 @@ export default function Header() {
                 alt='profile'
               />
             ) : (
-              <li className=' text-slate-700 hover:underline'> Sign in</li>
+              <li className=' text-slate-700  hover:text-red-500'> Sign in</li>
             )}
           </Link>
         </ul>
